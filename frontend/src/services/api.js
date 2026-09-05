@@ -1,6 +1,7 @@
 import { menuItems as fallbackMenuItems } from '../data/menuItems';
 
-const API_BASE = '/api';
+const BASE_URL = import.meta.env.VITE_API_URL ? import.meta.env.VITE_API_URL.replace(/\/$/, '') : '';
+const API_BASE = `${BASE_URL}/api`;
 
 function isNetworkError(error) {
   return error.name === 'TypeError' || error.name === 'AbortError';
