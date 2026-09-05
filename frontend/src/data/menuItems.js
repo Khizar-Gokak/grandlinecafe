@@ -83,7 +83,7 @@ export const menuItems = [
     description: "Rustic sourdough baguette brushed with confit garlic herb butter and melted mozzarella with fresh rosemary.",
     price: 240,
     rating: 4.8,
-    image: "https://images.unsplash.com/photo-1573140247632-f8fd74997d5c?w=600&q=80",
+    image: "https://images.unsplash.com/photo-1619535860434-ba1d8fa12536?w=600&q=80",
     featured: false,
     badge: null,
     prepTime: "10 min",
